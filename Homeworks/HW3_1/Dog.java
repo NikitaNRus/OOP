@@ -1,4 +1,4 @@
-package Homeworks.HW2_1;
+package Homeworks.HW3_1;
 
 public interface Dog extends Pet{
     void furColor(String a);

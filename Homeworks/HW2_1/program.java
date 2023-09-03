@@ -14,8 +14,7 @@ public class program {
         else w = Animal.weight(number);
         
         corgi1.corgiWeight(w);
-        int power = Dog.Power(w);
-        System.out.println("Сила корги равна " + power);
+        corgi1.power(w);
     }
     
 
