@@ -1,0 +1,26 @@
+package Seminars.Sem4_5;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UnboundedWildcardExample {
+    public static void printList(List<?> list) { // List <?> списки любого типа
+        for (Object item : list) {
+            System.out.print(item + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        List<Integer> intList = new ArrayList<>();
+        intList.add(5);
+        intList.add(10);
+
+        List<String> stringList = new ArrayList<>();
+        stringList.add("Привет");
+        stringList.add("Мир");
+
+        printList(intList);
+        printList(stringList);
+    }
+}
