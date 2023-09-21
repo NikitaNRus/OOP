@@ -47,7 +47,7 @@ public class UserView {
                 case 4:
                     break;
                 default:
-                    view.showMessage("Такого результата выбота не существует");
+                    view.showMessage("Такого результата выбора не существует");
                     break;
 
             }
